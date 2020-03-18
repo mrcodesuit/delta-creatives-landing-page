@@ -195,6 +195,7 @@ p {
             position: relative;
             font-size: 90px;
             font-weight: 300;
+            opacity: 0;
 
             @include media ('<=desktop') {
                font-size: 64px;
@@ -214,6 +215,7 @@ p {
 
          h1 {
             margin-left: 100px;
+            
 
             @include media ('<=desktop') {
                margin-left: 70px;
@@ -265,6 +267,7 @@ p {
          p {
             width: 50%;
             line-height: 1.8;
+            opacity: 0;
 
             @include media ('<=desktop') {
                width: 75%;
